@@ -17,7 +17,7 @@ class VCoderVLMSystem:
         sam_path,
         depth_path=None,
         device="cuda",
-        weight_path="./out/sft_vlm_768.pth",
+        weight_path="./out/best_val.pth",
         hidden_size=768,
         num_hidden_layers=16,
         use_moe=False
